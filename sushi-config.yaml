@@ -7,19 +7,19 @@
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
 
 
-id: your.package.id
-canonical: http://your.canonical.url/fhir
-url: http://your.canonical.url/fhir/ImplementationGuide/your.package.id
-name: YourIgComputableName
-title: "Your IG Title"
-description: A sample FHIR Implementation Guide to create capacity among the community.
+id: botswana.hie.fhir
+canonical: http://moh.bw.org
+url: http://moh.bw.org/fhir/ImplementationGuide/botswana.hie.fhir
+name: BotswanaHIE
+title: "Botswana FHIR Implementation Guide"
+description: A FHIR Implementation Guide - Botswana HIE.
 status: active
 license: CC0-1.0
-date: 2025-07-01
+date: 2025-08-28
 version: 1.0.0
 
 # Although fhirVersions is 0..* in the ImplementationGuide resource
-# it can be a single item OR and array here, but the current tooling 
+# it can be a single item OR and array here, but the current tooling
 # only supports one FHIR version per Implementation Guide
 fhirVersion: 4.0.1
 
@@ -37,16 +37,16 @@ releaseLabel: ci-build # ci-build | draft | qa-preview | ballot | trial-use | re
 # as IG.publisher.  The contact details and/or additional publishers
 # will be translated into IG.contact values.
 publisher:
-  name: Your Organization 
-  url: https://organization.url/
-  email: info@someorg.org
+  name: SamKenpachi
+  url: https://github.com/Open-Source-Botswana
+  email: samuelkabelo1@gmail.com
 
 # ContactDetail is required by the template.
 contact:
-  - name: Richard Langford
+  - name: Samuel Unangoni Kabelo
     telecom:
       - system: email
-        value: richard.langford@jembi.org
+        value: samuelkabelo1@gmail.com
         use: work
 
 # The jurisdiction can be a single item or a list. The FHIR Shorthand
@@ -176,9 +176,9 @@ dependencies:
 # partial list of allowed parameters see:
 # https://confluence.hl7.org/display/FHIR/Implementation+Guide+Parameters
 #parameters:
-#  path-binary: 
+#  path-binary:
 #    - input/cql
-#  path-resource: 
+#  path-resource:
 #    - input/maps
   #path-liquid:
   #  - templates/liquid
