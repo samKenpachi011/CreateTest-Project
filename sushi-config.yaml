@@ -92,7 +92,11 @@ dependencies:
 #     better option (see below).
 # The following are simple examples to demonstrate what this might
 # look like:
-#resources:
+resources:
+StructureMap/CHTPatientToFHIRR4Patient:
+    name: Map FHIR
+    description: Maps CHT Patient to FHIR R4 Patient
+    exampleBoolean: false
 #  Patient/my-example-patient:
 #    name: My Example Patient
 #    description: An example Patient

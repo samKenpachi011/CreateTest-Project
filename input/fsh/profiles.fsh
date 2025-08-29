@@ -1,3 +1,4 @@
+
 Profile: UNIPODPatientDemo
 Parent: Patient
 Id: diabetespatient
@@ -7,3 +8,5 @@ Description: "A profile for patients with diabetes mellitus."
 * name.text 1..1
 * name.use 1..1
 * name.given 1..1
+* maritalStatus from VSMaritalStatus (extensible)
+* extension contains MyMaritalStatusExtension named MaritalStatus 0..1
